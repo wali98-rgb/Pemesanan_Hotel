@@ -1,0 +1,31 @@
+/* Navigation CSS */
+    .body .main .navbars {
+        padding: 1rem;
+        background-color: rgb(0, 204, 160);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .body .main .navbars h1 {
+        color: var(--fo1);
+        font-weight: 500;
+    }
+
+    .body .main .navbars a {
+        display: flex;
+        align-items: center;
+        color: var(--fo1);
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+
+    .body .main .navbars a:hover {
+        color: rgb(0, 65, 204);
+    }
+
+    .body .main .navbars a i {
+        font-size: 1.4rem;
+        font-weight: 700;
+    }
+/* Navigation CSS */

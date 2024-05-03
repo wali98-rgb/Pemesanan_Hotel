@@ -1,0 +1,36 @@
+/* Footer CSS */
+    .footer {
+        padding: 0;
+        background-color: var(--pri);
+    }
+
+    .footer .foot-top {
+        padding: 1rem 0;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid var(--fo1);
+    }
+
+    .footer .foot-top a {
+        padding: .5rem 2rem;
+        background-color: var(--fo1);
+        border-radius: .5rem;
+        color: var(--pri);
+        font-weight: 500;
+    }
+
+    .footer .foot-top a:hover {
+        background-color: #e2e2e2;
+    }
+
+    .footer .foot-bot {
+        padding: .3rem 0;
+        display: flex;
+        justify-content: center;
+        font-size: .9rem;
+    }
+
+    .footer .foot-bot p {
+        color: var(--fo1);
+    }
+/* Footer CSS */

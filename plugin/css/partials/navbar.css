@@ -1,0 +1,82 @@
+/* Navbar CSS */
+    .navbars {
+        padding: 1rem 5%;
+        background-color: var(--pri);
+    }
+
+    .navbars .nav-top {
+        padding: 1rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbars .nav-top .logo h1 {
+        color: var(--fo1);
+        font-weight: 700;
+        font-size: 2rem;
+    }
+
+    .navbars .nav-top .btn a {
+        margin: 0 .3rem;
+        padding: .3rem 1rem;
+        background-color: var(--fo1);
+        border-radius: .5rem;
+        color: var(--pri);
+        font-weight: 500;
+    }
+
+    .navbars .nav-top .btn a:hover {
+        background-color: #e2e2e2;
+    }
+
+    .navbars .nav-bott {
+        padding: .5rem 0;
+        display: flex;
+        align-items: center;
+    }
+
+    .navbars .nav-bott a {
+        margin: 0 2rem;
+        display: flex;
+        align-items: center;
+        color: var(--fo1);
+        font-size: 1rem;
+        font-weight: 600;
+        width: auto;
+    }
+
+    .navbars .nav-bott a:hover {
+        color: #b7ffac;
+        font-weight: 600;
+    }
+
+    .navbars .nav-bott a:hover>i {
+        font-weight: 700;
+    }
+    
+    .navbars .nav-bott a i {
+        margin: 0 .7rem 0 0;
+        font-size: 1.3rem;
+    }
+
+    .navbars .nav-bott .active {
+        padding: .3rem 1rem;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        background-color: #20f000;
+        border-radius: 50px;
+        font-weight: 600;
+    }
+
+    .navbars .nav-bott .active i {
+        margin: 0 .7rem 0 0;
+        font-weight: 700;
+    }
+
+    .navbars .nav-bott .active:hover {
+        background-color: #1feb00;
+        color: var(--fo1);
+    }
+/* Navbar CSS */

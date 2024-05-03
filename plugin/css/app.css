@@ -1,0 +1,29 @@
+:root {
+    --pri: #1BC000;
+    --sec: #4971FF;
+    --thr: #00EA7A;
+    --bg: #F5F5F5;
+    --fo1: #FFFFFF;
+    --fo2: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--bg);
+}
+
+input {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}

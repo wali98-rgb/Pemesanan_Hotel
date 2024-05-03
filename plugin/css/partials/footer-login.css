@@ -1,0 +1,11 @@
+/* Footer Login CSS */
+    .footer {
+        padding: 0 2%;
+        text-align: center;
+    }
+    
+    .footer .foot-bot {
+        padding: 1rem;
+        border-top: 2px solid var(--fo2);
+    }
+/* Footer Login CSS */

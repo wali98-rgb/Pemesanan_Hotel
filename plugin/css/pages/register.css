@@ -1,0 +1,47 @@
+/* Register CSS */
+    .regis-page {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        min-height: 54vh;
+    }
+
+    .regis-page .regis {
+        width: 30rem;
+    }
+
+    .regis-page .regis h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .regis-page .regis .form-regis {
+        margin: 1rem 0 2rem;
+    }
+    
+    .regis-page .regis .form-regis .input-regis {
+        margin: .5rem 0;
+    }
+
+    .regis-page .regis .form-regis .input-regis label {
+        font-size: .9rem;
+    }
+
+    .regis-page .regis .form-regis .input-regis .inp input {
+        padding: .5rem;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .regis-page .regis .form-regis .sub-regis {
+        padding: .5rem;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: var(--sec);
+        color: var(--fo1);
+        border-radius: 10px;
+        border: none;
+    }
+/* Register CSS */

@@ -1,0 +1,48 @@
+/* Login CSS */
+    .login-page {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 100vh;
+        background-color: var(--bg);
+    }
+
+    .login-page .login {
+        width: 25rem;
+    }
+
+    .login-page .login a {
+        color: var(--fo2);
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
+    .login-page .login form {
+        padding: .5rem 1rem 1rem;
+        margin: 1rem 0;
+        background-color: var(--pri);
+        border-radius: 10px;
+    }
+
+    .login-page .login form .inp input {
+        margin: .5rem 0;
+        padding: .5rem;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+        background-color: var(--bg);
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .login-page .login form .sub-log {
+        padding: .5rem;
+        width: 100%;
+        border-radius: 10px;
+        background-color: var(--sec);
+        color: var(--fo1);
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+/* Login CSS */

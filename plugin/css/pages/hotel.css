@@ -1,0 +1,41 @@
+/* Hotel CSS */
+    .content {
+        padding: 1rem 3%;
+    }
+
+    .content p {
+        font-size: .9rem;
+    }
+
+    .content .ragam {
+        margin: 1rem 0;
+        padding: 1rem;
+        background-color: var(--fo1);
+        border-radius: 10px;
+    }
+
+    .content .login {
+        padding: 1rem;
+        background-color: var(--fo1);
+        border-radius: 10px;
+    }
+    
+    .content .login span {
+        margin: 1rem 0 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .content .login span a {
+        padding: .5rem 2rem;
+        text-align: center;
+        background-color: var(--sec);
+        color: var(--fo1);
+        border-radius: .5rem;
+        font-weight: 500;
+    }
+
+    .content .login span a:hover {
+        background-color: #1144ff;
+    }
+/* Hotel CSS */

@@ -1,0 +1,26 @@
+/* Home CSS */
+    .body {
+        display: flex;
+    }
+    
+    /* Content CSS */
+        .body .main .title {
+            padding: .5rem 1rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .body .main .title h1 {
+            font-weight: 600;
+        }
+
+        .body .main .content {
+            padding: .5rem 1rem;
+        }
+
+        .body .main .content h1 {
+            font-size: 2.5rem;
+            font-weight: 500;
+        }
+    /* Content CSS */
+/* Home CSS */

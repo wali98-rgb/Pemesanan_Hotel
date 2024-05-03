@@ -1,0 +1,47 @@
+/* Login CSS */
+    .login-page {
+        padding: 2rem;
+        display: flex;
+        justify-content: center;
+        min-height: 54vh;
+    }
+    
+    .login-page .login {
+        width: 30rem;
+    }
+
+    .login-page .login h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+    }
+
+    .login-page .login .form-login {
+        margin: 1rem 0 2rem;
+    }
+    
+    .login-page .login .form-login .input-login {
+        margin: .5rem 0;
+    }
+
+    .login-page .login .form-login .input-login label {
+        font-size: .9rem;
+    }
+
+    .login-page .login .form-login .input-login .inp input {
+        padding: .5rem;
+        width: 100%;
+        border-radius: 10px;
+        border: none;
+    }
+
+    .login-page .login .form-login .sub-login {
+        padding: .5rem;
+        width: 100%;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: var(--sec);
+        color: var(--fo1);
+        border-radius: 10px;
+        border: none;
+    }
+/* Login CSS */
